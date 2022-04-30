@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'JunoMint',
   tagline: 'JunoMint Docs',
-  url: 'https://junomint.com',
+  url: 'https://docs.junomint.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -26,6 +26,7 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/JunoMint/documentation/tree/main/',
         },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -41,6 +42,8 @@ const config = {
         logo: {
           alt: 'JunoMint Logo',
           src: 'img/logo.svg',
+          href: 'https://junomint.com',
+          target: '_self'
         },
         items: [
           {
