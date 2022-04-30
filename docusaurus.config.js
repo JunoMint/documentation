@@ -14,7 +14,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'JunoMint',
-  projectName: 'documentation',
+  projectName: 'junomint-documentation',
+  trailingSlash: false,
 
   presets: [
     [
@@ -24,7 +25,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/JunoMint/documentation/tree/main/',
+          editUrl: 'https://github.com/JunoMint/junomint-documentation/tree/main/',
         },
         blog: false,
         theme: {
