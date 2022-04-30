@@ -44,7 +44,6 @@ const config = {
           alt: 'JunoMint Logo',
           src: 'img/logo.svg',
           href: 'https://junomint.com',
-          target: '_self'
         },
         items: [
           {
